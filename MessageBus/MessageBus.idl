@@ -1,0 +1,18 @@
+﻿// MessageBus.idl: MessageBus 的 IDL 源
+//
+
+// 此文件将由 MIDL 工具处理以
+// 生成类型库(MessageBus.tlb)和封送处理代码。
+
+import "oaidl.idl";
+import "ocidl.idl";
+
+[
+	uuid(f85dfc1d-3601-4333-9679-3abb4bf9f3a2),
+	version(1.0),
+]
+library MessageBusLib
+{
+	importlib("stdole2.tlb");
+};
+
